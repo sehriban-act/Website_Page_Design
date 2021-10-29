@@ -12,11 +12,11 @@
 
 <body>
     <header class="header">
-        <div class="header__title"><span>Clarusway</span>Web Design</div>
+        <div class="header__title"><span>Clarusway </span>Web Design</div>
         <div class="header__buttons">
-            <button class="header__buttons--home"><a href="">Home</a> </button>
-            <button class="header__buttons--about"><a href="">about</a> </button>
-            <button class="header__buttons--services"><a href="">services</a> </button>
+            <a class="header__buttons--home" href="index.html">Home </a>
+            <a class="header__buttons--about" href="about.html">about </a>
+            <a class="header__buttons--services" href="services.html">services </a>
         </div>
     </header>
 
@@ -30,21 +30,23 @@
         </div>
     </section>
 
-    <main class="services"><h2>Services</h2>
+    <main class="services">
         <div class="services__left">
-            <div class="services__left">
+            <h2>Services</h2>
+            <div class="services__left-p">
+               
                 <h3>Website Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium repellendus autem
                     perferendis rem obcaecati?</p>
                 <p>Pricing:$1,000-$3,000</p>
             </div>
-            <div class="services__left">
+            <div class="services__left-p">
                 <h3>Website Maintenance</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium repellendus autem
                     perferendis rem obcaecati?</p>
                 <p>Pricing:$250 per month</p>
             </div>
-            <div class="services__left">
+            <div class="services__left-p">
                 <h3>Website Hosting</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium repellendus autem
                     perferendis rem obcaecati?</p>
@@ -55,19 +57,20 @@
 
         <div class="services__right"><h2>Get a Quote</h2>
             <form action="" class="services__right--form">
-                <div>
+                <div class="input_size">
                     <label for="name">Name</label><br>
                     <input type="text" name="entered_name" id="name" placeholder="Name">
                 </div>
-                <div>
+                <div class="input">
                     <label for="email">Email</label><br>
                     <input type="text" name="entered_email" id="email" placeholder="Email Address">
                 </div>
-                <div>
+                <div class="input">
                     <label for="message">Message</label><br>
-                    <textarea name="message" id="message" cols="60" rows="2" placeholder="Message"></textarea><br>
-                    <input type="submit" value="Send">
+                    <textarea name="message" id="message"  placeholder="Message"></textarea><br>
+                    
                 </div>
+                <input type="submit" value="Send" id="btn">
             </form>
         </div>
 

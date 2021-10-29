@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding:0%;
+    margin:0%;
+}
+
+body{
+    width:100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:100%;
+    
+   
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.781);
+    color:white;
+    padding:1em;
+    border-bottom: 2px solid rgba(128, 0, 128, 0.932);
+}
+header span{
+    color:rgba(128, 0, 128, 0.932);
+    font-weight: 900;;
+}
+.header a{
+    color:white;
+    font-variant-caps:all-petite-caps;
+    font-weight: lighter;
+    text-decoration:none;
+    padding-left: 1em;    
+}
+
+.header a:hover{
+    /* color:rgba(128, 0, 128, 0.932); */
+}
+.header a:active{
+    color:rgba(128, 0, 128, 0.932);
+}
+.main{
+ 
+  padding:4.6em;
+    background-image: url(./img/showcase.jpg);
+    /* height:100%; */
+    background-size: cover;
+    background-position: center;
+    display:flex;
+
+}
+
+.main__content{
+    margin:auto;
+    color:white;
+}
+.main__content--title{
+    text-align: center;
+    padding-bottom:0.7em;
+}
+.subscribe{
+    display:flex;
+    justify-content: space-between;
+    /* height:20%; */
+    color:white;
+    padding:1.2em;
+    background-color:rgba(0, 0, 0, 0.781);
+}
+.subscribe__text{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.subscribe__form--email{
+    height:3vh;
+    width:20vw;
+    font-size: 0.7rem;
+}
+.subscribe__form--button{
+    width:10vw;
+    height:3vh;
+background-color: rgba(255, 60, 0, 0.726);
+color:white;
+font-size: 0.7rem;
+border:none;
+}
+
+
+
+.programmes{
+    display:flex;
+    background-color:rgb(235, 232, 228);
+  justify-content: space-between;
+  text-align: center;
+   padding:2em;
+}
+.programmes img{
+    width:30%;
+}
+.programmes-name{
+    font-weight: 700;
+    font-size: 0,8rem;
+}
+.programmes-description{
+    font-size: 0.6rem;
+}
+.footer{
+    text-align: center;
+  padding:1em;
+    background-color:rgba(0, 0, 0, 0.781);
+    height:10%;
+}
+footer img{
+    width:8em;
+}
+.footer__copy{
+    font-size: 0.6rem;
+    color:rgba(255, 255, 255, 0.61);
+    font-stretch: narrower;
+    font-weight: 700;
+    padding: 0.3em;
+
+}
+
+
+.about{
+    display:flex;
+    font-size: 0.7rem;
+    /* padding:2em; */
+    margin-bottom:12em;
+}
+.about__left{
+    margin:2em;
+}
+.black-box{
+    background-color:rgba(0, 0, 0, 0.781);
+    color:white;
+    padding:1em;
+    }
+.about h3{
+    padding-bottom:1em;
+    /* padding-top: 2em; */
+}
+.about .right-side{
+    margin:2em;
+    height: 20%;
+}
+.about__left-first{
+    margin-bottom:0.5em;
+}
+
+
+

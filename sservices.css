@@ -1,0 +1,51 @@
+.services{
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+.services__left{
+    margin:2em;
+    width:70%;
+    /* align-content: space-around; */
+
+}
+.services__left h2{
+    margin-bottom:1em;
+}
+.services__left-p{
+    background-color: rgba(128, 128, 128, 0.123);
+    margin-top:0.2em;
+    padding:2em 3em 2em 1em;
+    
+}
+.services__left-h3{
+    padding-bottom: ;
+}
+.services__right{
+    margin:1em;
+    background-color: rgba(0, 0, 0, 0.781);
+    height:50%;
+    width:30%;
+    padding:1em 1.5em 1em 0.8em;
+    color:white
+}
+.services__right h2{
+    font-size: 0.8rem;
+    padding-bottom: 1em;
+}
+input #btn{
+    width:20%;
+}
+
+.services__right--form input{
+    font-size: 0.6rem;
+    width: 100%;
+}
+textarea{
+    font-size: 0.6rem;
+    width: 100%;}
+
+    
+
+
+
